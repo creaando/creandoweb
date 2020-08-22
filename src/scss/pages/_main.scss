@@ -1,0 +1,215 @@
+.main{
+  // background-color: royalblue;
+  .quienesSomos{
+    // background-color: royalblue;
+    &__image{
+      // background-color: tomato;
+      background-image: url('/public/images/quienes.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      // background-origin: center;
+      background-position: -5rem 30%;
+    }
+    &__title{
+      // background-color: salmon;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-star;
+      padding: 2rem 0;
+      // margin-top: -1rem;
+      // margin-left: 1rem;
+      // display: grid;
+      // grid-template-columns: repeat(3, 1fr);
+      // grid-template-rows: repeat(2, 1fr);
+      h2{
+        font-size: 2rem;
+      }
+      .gray{
+        width: 100%;
+        // color:$txtResalte;
+        // background-color: yellowgreen;
+        // margin-top: 25%;
+        // grid-row: 1 / 2;
+        // display: flex;
+        // justify-content: flex-end;
+      }
+      .pink{
+        width: 100%;
+        // background-color: violet;
+        // margin-top: -5%;
+        // margin-bottom: 25%;
+        // grid-row: 2 / 3;
+        // display: flex;
+        // justify-content: flex-start;
+        color:$txtResalte;
+
+      }
+    }
+    &__subtitle{
+      // background-color: seagreen;
+      text-align: center;
+      h3{
+        color: $primario;
+      }
+
+    }
+    &__content{
+      // background-color: rgba(103, 94, 102, .2);
+      display: flex;
+      align-items: center;
+      margin: 0 1rem;
+      text-align: justify;
+      // padding-left:.5rem;
+      // padding-top: 20%;
+      color:$color;
+
+    }
+    &__advant{
+      background-color: $txtResalte;
+      margin: 1rem 0;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      color: $baseredes;
+      li{
+        margin: 1rem 1rem;
+        .img{
+          background-image: url('/public/images/check.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 60%;
+        }
+      }
+    }
+  }
+  .queHacemos{
+    // background-color: fuchsia;
+    &_page{
+      // background-color: red;
+
+    }
+    &__image{
+      // background-color: seagreen;
+      background-image: url('/public/images/hacemos.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      // background-origin: center;
+      background-position: 1rem center;
+    }
+    &__title{
+      // background-color: salmon;
+      margin-right: .6rem;
+      h2{
+        // background-color: olive;
+        font-size: 2rem;
+      }
+      .pink{
+        // background-color: orange;
+      }
+      .gray{
+        // background-color: orangered;
+        color:$txtResalte;
+      }
+    }
+
+    &__subtitle{
+      // background-color: skyblue;
+      .subtitlePink{
+        color: $primario;
+      }
+    }
+    &__content{
+      // background-color: teal;
+      margin: 0 1.5rem;
+      .ask{
+        // background-color: palegoldenrod;
+        color: $txtResalte;
+        font-style: italic;
+        text-align: center;
+      }
+      .weAre{
+        // background-color: plum;
+        color: $color;
+        text-align: justify;
+        // font-weight: bold;
+      }
+    }
+
+    &__services{
+      // background-color: yellowgreen;
+
+    }
+  }
+  .quienesHacen{
+    .wrapHeader{
+      // background-color: purple;
+    }
+    .wrapBox{
+      // background-color: orchid;
+    }
+
+    &__image{
+      // background-color: lawngreen;
+      background-image: url("/public/images/hacen.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: -1rem 80%;
+    }
+    &__title{
+      // background-color: lightcoral;
+      display: flex;
+      flex-wrap: wrap;
+      // justify-content: flex-start;
+      align-items: center;
+      margin-left: -1.5rem;
+      h2{
+        font-size: 2rem;
+      }
+      .pink{
+        // background-color: purple;
+        width: 100%;
+
+      }
+      .gray{
+        // background-color: royalblue;
+        width: 100%;
+        color:$txtResalte;
+      }
+    }
+    &__subtitle{
+      // background-color: orange;
+      text-align: center;
+      h3{
+        color: $primario;
+      }
+    }
+    &__content{
+      // background-color: rebeccapurple;
+      // background-color: teal;
+      margin: 0 1.5rem;
+      .ask{
+        // background-color: palegoldenrod;
+        color: $txtResalte;
+        font-style: italic;
+        text-align: center;
+      }
+      .weAre{
+        // background-color: plum;
+        color: $color;
+        text-align: justify;
+        // font-weight: bold;
+      }
+    }
+    &__employees{
+      // background-color: olive;
+
+    }
+  }
+  .avancemos{
+
+  }
+}
+.footer{
+
+}
